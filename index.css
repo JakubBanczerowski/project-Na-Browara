@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: black;
+}
+
+/*NAV*/
+.bg-menu {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    min-height: 60px;
+    text-align: center;
+}
+
+.nav-link {
+    font-family: 'Kanit', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 5px 30px;
+    margin: 0 20px;
+}
+
+li:hover a {
+    border-bottom: 2px solid #ffc107;
+}
+
+
+a.login {
+    font-weight: 700;
+    background-color: #ffc107;
+    border: 2px solid #ffc107;
+    border-radius: 8%;
+    color: black;
+}
+
+nav .navbar-toggler.active {
+    z-index: 1;
+}
+
+/*login and register */
+
+.sidenav {
+
+    height: 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .login-main-text {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form {
+        margin-top: 10%;
+    }
+
+    .register-form {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        margin-left: 40%;
+        margin-top: 10%;
+
+    }
+
+    .sidenav {
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form {
+        margin-top: 50%;
+    }
+
+    .register-form {
+        margin-top: 20%;
+    }
+}
+
+.login-main-text {
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Finger Paint', cursive;
+    font-size: 25px;
+    color: white;
+}
+
+.login-main-text p {
+    color: #ffc107;
+    font-size: 28px;
+}
+
+label.user,
+label.password {
+    color: white !important;
+    font-size: 20px;
+    font-family: 'Finger Paint', cursive;
+}
+
+/* SECTION 1*/
+/*header*/
+.section1 {
+    width: 100%;
+    height: 100%;
+    margin: 90px auto;
+
+}
+
+.picture1 {
+    margin: 0 auto;
+}
+
+.h1browar {
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    color: white;
+    font-weight: 800;
+    animation: h1browar 1.5s linear;
+}
+
+.regist {
+    border-radius: 5%;
+    color: black;
+    text-align: center;
+    color: #ffc107;
+    font-family: 'Kanit', sans-serif;
+}
+
+​a:visited,
+a:link,
+a:hover {
+    text-decoration: none;
+}
+
+.regist:hover {
+
+    animation: pulse 1s infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+/*animation: h1browar 1.5s linear;
+
+animation: h2spot 1.5s linear;
+
+}
+
+@keyframes h1browar {
+    0% {
+        overflow: hidden;
+        left: -50%;
+    }
+
+    20% {
+        overflow: hidden;
+        left: -40%;
+    }
+
+
+    40% {
+        overflow: hidden;
+        left: -10%;
+    }
+
+    50% {
+        opacity: 0.7;
+        left: 10%;
+    }
+
+    60% {
+        opacity: 0.7;
+        left: 20%;
+    }
+
+    70% {
+        opacity: 0.8;
+        left: 30%;
+    }
+
+    80% {
+        opacity: 0.9;
+        left: 35%;
+    }
+
+    90% {
+        left: 40%;
+    }
+
+    100% {
+        left: 50%;
+    }
+}
+*/
+@keyframes h2spot {
+    0% {
+
+        opacity: 0;
+    }
+
+    30% {
+
+        opacity: 0.3;
+    }
+
+    60% {
+
+        opacity: 0.4;
+    }
+
+    80% {
+        bottom: 10%;
+        opacity: 0.6;
+    }
+
+
+    90% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* SECTION 2*/
+
+.section2 div {
+    margin: 0 auto;
+    height: auto;
+    margin-top: 30px;
+}
+
+.section2 div p:nth-of-type(1) {
+    color: white;
+    font-family: 'Kanit', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section2 div p:nth-of-type(2) {
+    color: white;
+    font-family: 'Kanit', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section2 div p:nth-of-type(3) {
+    color: white;
+    font-family: 'Kanit', cursive;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section2 div span:nth-of-type(1) {
+    color: #ffc107;
+    font-family: 'Kanit', cursive;
+    font-size: 28px;
+}
+
+.setion2 div.pictures div.text {
+    text-align: left;
+}
+
+div.text-p {
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    line-height: 50px;
+}
+
+.section2 div h1 {
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    color: #ffc107;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.section2 div.pictures .picture1 {
+    width: 100%;
+    height: auto;
+}
+
+.section2 div.pictures .picture2 {
+    width: 100%;
+    height: auto;
+}
+
+.section2 div.pictures .picture3 {
+    width: 100%;
+    height: auto;
+}
+
+/* CARUSELE*/
+.carousele {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.carousele img {
+    border-radius: 3%;
+    width: 100%;
+    z-index: -2;
+    box-shadow: 2px 0px 31px 5px rgba(74, 74, 74, 1);
+    box-shadow: 2px 0px 194px -39px rgba(25, 102, 179, 1);
+    box-shadow: 2px 0px 91px -20px rgba(255, 216, 23, 0.65);
+    box-shadow: -1px 0px 157px -47px rgba(39, 119, 204, 1);
+}
+
+h1.ExampleApp {
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    color: #ffc107;
+    margin-top: 50px;
+}
+
+button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+}
+
+button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    margin: auto 60px;
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto 60px;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
+
+
+/* SECTION 3*/
+
+.section3 header.recomend {
+    text-align: center;
+    font-family: 'Finger Paint', cursive;
+    color: #ffc107;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.section3 img {
+    padding: 0 10px;
+    width: 100%;
+    height: auto;
+    animation: imgCity 6s linear infinite;
+}
+
+.section3 p {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffc107;
+    font-family: 'Finger Paint', cursive;
+}
+
+.section3 h2 {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    animation: textCityh2 6s linear infinite;
+}
+
+
+@keyframes imgCity {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 0.1;
+    }
+
+    10% {
+        opacity: 0.2;
+    }
+
+    15% {
+        opacity: 0.3;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0.3;
+    }
+
+    90% {
+        opacity: 0.2;
+    }
+
+    95% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+@keyframes textCityh2 {
+    0% {
+        opacity: 0;
+    }
+
+    5% {
+        opacity: 0.1;
+    }
+
+    10% {
+        opacity: 0.2;
+    }
+
+    15% {
+        opacity: 0.3;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    75% {
+        opacity: 1;
+    }
+
+    85% {
+        opacity: 0.3;
+    }
+
+    90% {
+        opacity: 0.2;
+    }
+
+    95% {
+        opacity: 0.1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+.section4 {
+    margin-top: 10rem;
+    width: 100%;
+    height: auto;
+}
+
+.section4 img {
+    width: 100%;
+    height: auto;
+}
+
+.section4 h1 {
+    font-family: 'Finger Paint', cursive;
+    color: #ffc107;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.section4 div.party {
+    width: 33%;
+    height: 300px;
+    border: 1px solid #ffc107;
+    padding: 0 10px;
+    background-image: url("images/barrr.png");
+
+}
+
+.section4 div.concert {
+    width: 33%;
+    height: 300px;
+    border: 1px solid #ffc107;
+    padding: 0 10px;
+    background-image: url("images/conceert.png");
+}
+
+.section4 div.internationalParty {
+    width: 33%;
+    height: 300px;
+    border: 1px solid #ffc107;
+    padding: 0 10px;
+    background-image: url("images/concertinter.png");
+}
+
+.section4 h2 {
+    margin-top: 1rem;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 1rem;
+}
+
+.section4 button {
+    margin: 0 auto;
+    margin-top: 180px;
+    padding: 5px 30px;
+    border-radius: 5%;
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    font-size: 1.1rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+
+}
+
+footer .footer img {
+    height: 80px;
+    width: auto;
+    margin: 0 auto;
+}
+
+footer .footer h2 {
+
+    margin: 20px auto;
+    font-size: 25px;
+    color: #ffc107;
+    font-family: 'Finger Paint', cursive;
+}
+
+
+
+
+/* <h1>Warszawa</h1>
+                        <h2>Weles Bar</h2>
+                        <h2>Kita Koguta</h2>
+                        <h2>Coctail Bar Max & Dom Whisky</h2>
+                        <h1>Poznań</h1>
+                        <h2>NaPiwek PUB</h2>
+                        <h2>Chmielnik</h2>
+                        <h2>Piwna Stopa</h2>
+                        <h1>Kraków</h1>
+                        <h2>Free Pub</h2>
+                        <h2>Dobry Kumpel Pub</h2>
+                        <h2>Cybermachina Game Pub</h2> */

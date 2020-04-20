@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Finger+Paint&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap&subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:400i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Nabrowara</title>
+    <link rel="shortcut icon" href="/Na browara/images/logo2.png">
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="bootstrap.css">
+
+</head>
+
+<div class="wrapper">
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <img clas="logomenu" src="/Na browara/images/logo white.png" width="50" text="center" alt="logo">
+            <h3 class="textlogo">Na browara</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <li>
+                <a href="dashboardNB.html"><i class="fas fa-home"></i>Panel główny</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-users"></i>Lista znajomych</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-heart"></i>Ulubione miejsca</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-cogs"></i>Ustawienia</a>
+            </li>
+            <li>
+                <a href="#"><i class="fas fa-file-signature"></i>Kontakt</a>
+            </li>
+        </ul>
+
+        <ul class="list-unstyled CTAs">
+            <li>
+                <a href="dashboardPA.html" class="download">Pobierz aplikacje</a>
+            </li>
+            <li>
+                <a href="#" class="article">Strona główna</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid col-12 col-lg-12">
+                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <form class="form-inline">
+                    <i class="fas fa-search" aria-hidden="true"></i>
+                    <input class="form-control form-control-sm ml-1 w-70" type="text" placeholder="Szukaj"
+                      aria-label="Search">
+                  </form>
+                <h2 class="textmain">Lista Znajomych</h2>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row col-md-12 col-lg-12 text-center">
+          
+            </div>
+        </div>
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+            integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $(this).toggleClass('active');
+                });
+            });
+        </script>
+        </body>
+
+</html>
